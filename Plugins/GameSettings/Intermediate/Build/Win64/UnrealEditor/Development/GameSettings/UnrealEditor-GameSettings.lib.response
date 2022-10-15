@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GameSettings.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\HeroesOfLost\Intermediate\Build\Win64\HeroesOfLostEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"F:\HeroesOfLost\Plugins\GameSettings\Intermediate\Build\Win64\UnrealEditor\Development\GameSettings\Module.GameSettings.cpp.obj"
+"F:\HeroesOfLost\Plugins\GameSettings\Intermediate\Build\Win64\UnrealEditor\Development\GameSettings\Module.GameSettings.gen.cpp.obj"
+"F:\HeroesOfLost\Plugins\GameSettings\Intermediate\Build\Win64\UnrealEditor\Development\GameSettings\Default.rc2.res"
+/OUT:"F:\HeroesOfLost\Plugins\GameSettings\Intermediate\Build\Win64\UnrealEditor\Development\GameSettings\UnrealEditor-GameSettings.lib"

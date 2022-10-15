@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\heroesoflost\\source\\heroesoflost\\heroesoflost.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\heroesoflost\\intermediate\\build\\win64\\heroesoflosteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\development\\heroesoflost\\definitions.heroesoflost.h",
+            "f:\\heroesoflost\\source\\heroesoflost\\heroesoflost.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"SourceFiles": [
+		"F:\\HeroesOfLost\\Source\\HeroesOfLost\\HeroesOfLost.Build.cs",
+		"F:\\HeroesOfLost\\Plugins\\CommonGame\\Source\\CommonGame.Build.cs",
+		"F:\\HeroesOfLost\\Plugins\\CommonUser\\Source\\CommonUser\\CommonUser.Build.cs",
+		"F:\\HeroesOfLost\\Plugins\\GameSettings\\Source\\GameSettings.Build.cs",
+		"F:\\HeroesOfLost\\Plugins\\ModularGameplayActors\\Source\\ModularGameplayActors\\ModularGameplayActors.Build.cs",
+		"F:\\HeroesOfLost\\Plugins\\UIExtension\\Source\\UIExtension.Build.cs",
+		"F:\\HeroesOfLost\\Source\\HeroesOfLost.Target.cs",
+		"F:\\HeroesOfLost\\Source\\HeroesOfLostEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

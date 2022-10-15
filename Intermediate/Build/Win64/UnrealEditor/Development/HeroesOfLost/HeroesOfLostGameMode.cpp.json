@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\heroesoflost\\source\\heroesoflost\\heroesoflostgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\heroesoflost\\intermediate\\build\\win64\\heroesoflosteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\development\\heroesoflost\\definitions.heroesoflost.h",
+            "f:\\heroesoflost\\source\\heroesoflost\\heroesoflostgamemode.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\heroesoflostgamemode.generated.h",
+            "f:\\heroesoflost\\source\\heroesoflost\\heroesoflostcharacter.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\heroesoflostcharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

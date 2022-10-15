@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HeroesOfLost.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HeroesOfLost.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HeroesOfLostEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\EnhancedInputDocumentation.odt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CommonGame">
+      <UniqueIdentifier>{E1E239CD-53BC-3B92-8DE7-AD14CF3D2557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CommonGame\Source">
+      <UniqueIdentifier>{38A194BF-B69F-3709-A5F4-B4EDA2B5B5F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonGame\Source\CommonGame.Build.cs">
+      <Filter>Plugins\CommonGame\Source</Filter>
+    </None>
+    <Filter Include="Plugins\CommonGame\Source\Private">
+      <UniqueIdentifier>{5B0BCB3E-C987-3E6F-9319-75EA8AF4C53E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonGameInstance.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonGameModule.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonLocalPlayer.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonPlayerController.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonPlayerInputKey.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonUIExtensions.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\GameUIManagerSubsystem.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\GameUIPolicy.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\LogCommonGame.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Private\LogCommonGame.h">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\PrimaryGameLayout.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CommonGame\Source\Private\Actions">
+      <UniqueIdentifier>{D64C553B-0901-3224-8FA0-F5D214C1032B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Actions\AsyncAction_CreateWidgetAsync.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Actions\AsyncAction_PushContentToLayerForPlayer.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Actions\AsyncAction_ShowConfirmation.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Actions</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CommonGame\Source\Private\Messaging">
+      <UniqueIdentifier>{90C1FC57-080E-396F-B587-CC56EBCA9C62}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Messaging\CommonGameDialog.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Messaging\CommonMessagingSubsystem.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Messaging</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CommonGame\Source\Public">
+      <UniqueIdentifier>{2A893F07-2A83-35C7-9C69-814A019755CF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonGameInstance.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonLocalPlayer.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonPlayerController.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonPlayerInputKey.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonUIExtensions.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\GameUIManagerSubsystem.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\GameUIPolicy.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\PrimaryGameLayout.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CommonGame\Source\Public\Actions">
+      <UniqueIdentifier>{94DB1903-781A-3BC3-A573-2232AF76BA4F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Actions\AsyncAction_CreateWidgetAsync.h">
+      <Filter>Plugins\CommonGame\Source\Public\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Actions\AsyncAction_PushContentToLayerForPlayer.h">
+      <Filter>Plugins\CommonGame\Source\Public\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Actions\AsyncAction_ShowConfirmation.h">
+      <Filter>Plugins\CommonGame\Source\Public\Actions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CommonGame\Source\Public\Messaging">
+      <UniqueIdentifier>{29A3035A-843A-3BAF-975F-CCF4B6DD656C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Messaging\CommonGameDialog.h">
+      <Filter>Plugins\CommonGame\Source\Public\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Messaging\CommonMessagingSubsystem.h">
+      <Filter>Plugins\CommonGame\Source\Public\Messaging</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\CommonGame\CommonGame.uplugin">
+      <Filter>Plugins\CommonGame</Filter>
+    </None>
+    <Filter Include="Plugins\CommonUser">
+      <UniqueIdentifier>{8716E485-BC4A-3B38-8F39-874ACA390677}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonUser\CommonUser.uplugin">
+      <Filter>Plugins\CommonUser</Filter>
+    </None>
+    <Filter Include="Plugins\CommonUser\Resources">
+      <UniqueIdentifier>{244EABB8-94D5-3428-81D6-CF7BA7F27A69}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonUser\Resources\Icon128.png">
+      <Filter>Plugins\CommonUser\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\GameSettings">
+      <UniqueIdentifier>{F94CAB11-639E-3322-AE1F-5FA3B66FE6BA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSettings\GameSettings.uplugin">
+      <Filter>Plugins\GameSettings</Filter>
+    </None>
+    <Filter Include="Plugins\ModularGameplayActors">
+      <UniqueIdentifier>{E25759FB-664C-355F-8250-88BB112CE4AF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ModularGameplayActors\ModularGameplayActors.uplugin">
+      <Filter>Plugins\ModularGameplayActors</Filter>
+    </None>
+    <Filter Include="Plugins\UIExtension">
+      <UniqueIdentifier>{3E763937-0343-3397-B855-33D0F0C06D84}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UIExtension\UIExtension.uplugin">
+      <Filter>Plugins\UIExtension</Filter>
+    </None>
+    <Filter Include="Plugins\CommonUser\Source">
+      <UniqueIdentifier>{EEB044F2-392C-3506-9A79-6AB8BD3A1A6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CommonUser\Source\CommonUser">
+      <UniqueIdentifier>{02CB03AE-D248-3737-8859-DE3608D28AC0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonUser\Source\CommonUser\CommonUser.Build.cs">
+      <Filter>Plugins\CommonUser\Source\CommonUser</Filter>
+    </None>
+    <Filter Include="Plugins\CommonUser\Source\CommonUser\Private">
+      <UniqueIdentifier>{5D07534E-5D8C-3BD0-8EAA-69F91B8AA007}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonUser\Source\CommonUser\Private\AsyncAction_CommonUserInitialize.cpp">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonUser\Source\CommonUser\Private\CommonSessionSubsystem.cpp">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonUser\Source\CommonUser\Private\CommonUserModule.cpp">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonUser\Source\CommonUser\Private\CommonUserSubsystem.cpp">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CommonUser\Source\CommonUser\Public">
+      <UniqueIdentifier>{2A5F42F9-EE12-3762-8F6F-3EF3B4635964}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\AsyncAction_CommonUserInitialize.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\CommonSessionSubsystem.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\CommonUserModule.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\CommonUserSubsystem.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\CommonUserTypes.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source">
+      <UniqueIdentifier>{FE501F5B-1D9B-3E42-AA81-1E1AD3EB9E74}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSettings\Source\GameSettings.Build.cs">
+      <Filter>Plugins\GameSettings\Source</Filter>
+    </None>
+    <None Include="..\..\Plugins\GameSettings\Source\README.md">
+      <Filter>Plugins\GameSettings\Source</Filter>
+    </None>
+    <Filter Include="Plugins\GameSettings\Source\Private">
+      <UniqueIdentifier>{B75EA3BB-A42F-3DE8-BF6F-D368EADE2D60}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSetting.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingAction.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingCollection.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingFilterState.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingsModule.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValue.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValueDiscrete.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValueDiscreteDynamic.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValueScalar.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValueScalarDynamic.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\DataSource">
+      <UniqueIdentifier>{17FB7AE8-6A4A-3A2A-A7B4-6FAF3E613C12}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\DataSource\GameSettingDataSourceDynamic.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\DataSource</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\EditCondition">
+      <UniqueIdentifier>{871FA59A-918F-30AF-8C4D-8C65877A38EE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\EditCondition\WhenPlatformHasTrait.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\EditCondition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\EditCondition\WhenPlayingAsPrimaryPlayer.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\EditCondition</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\Registry">
+      <UniqueIdentifier>{66FBEC6A-1B6C-3A71-A1C6-5A514825EDE0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Registry\GameSettingRegistry.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Registry\GameSettingRegistryChangeTracker.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Registry</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\Widgets">
+      <UniqueIdentifier>{08C1F8AC-F0DB-332A-A769-10756370442E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingDetailExtension.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingDetailView.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingListEntry.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingListView.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingPanel.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingScreen.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingVisualData.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\IGameSettingActionInterface.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\Widgets\Misc">
+      <UniqueIdentifier>{E1DC6B24-D8C7-339E-8A68-DB7C20F36643}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Misc\GameSettingPressAnyKey.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Misc\GameSettingRotator.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Misc</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\Widgets\Responsive">
+      <UniqueIdentifier>{D594ED39-E1B0-34B5-9277-E0D4D6738AE8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanel.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanel.h">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanelSlot.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanelSlot.h">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\SGameResponsivePanel.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\SGameResponsivePanel.h">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public">
+      <UniqueIdentifier>{2469736E-8B21-392B-8CC3-BEFEA0722EFE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSetting.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingAction.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingCollection.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingFilterState.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingRegistry.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingRegistryChangeTracker.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValue.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValueDiscrete.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValueDiscreteDynamic.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValueScalar.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValueScalarDynamic.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public\DataSource">
+      <UniqueIdentifier>{FCEFEC9D-1A19-3171-9E62-F8695412DA50}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\DataSource\GameSettingDataSource.h">
+      <Filter>Plugins\GameSettings\Source\Public\DataSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\DataSource\GameSettingDataSourceDynamic.h">
+      <Filter>Plugins\GameSettings\Source\Public\DataSource</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public\EditCondition">
+      <UniqueIdentifier>{4A32E238-256E-349C-9FED-407796717EC0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\EditCondition\WhenCondition.h">
+      <Filter>Plugins\GameSettings\Source\Public\EditCondition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\EditCondition\WhenPlatformHasTrait.h">
+      <Filter>Plugins\GameSettings\Source\Public\EditCondition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\EditCondition\WhenPlayingAsPrimaryPlayer.h">
+      <Filter>Plugins\GameSettings\Source\Public\EditCondition</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public\Widgets">
+      <UniqueIdentifier>{7CE2C7B0-8061-3ECC-9262-F9566134EABE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingDetailExtension.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingDetailView.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingListEntry.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingListView.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingPanel.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingScreen.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingVisualData.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\IGameSettingActionInterface.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public\Widgets\Misc">
+      <UniqueIdentifier>{04546906-1A99-3224-B2E2-8F208F21CF55}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\Misc\GameSettingPressAnyKey.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\Misc\GameSettingRotator.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets\Misc</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ModularGameplayActors\Source">
+      <UniqueIdentifier>{D2A7373A-5074-3627-B395-44D580887335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ModularGameplayActors\Source\ModularGameplayActors">
+      <UniqueIdentifier>{BB71DF83-D340-3BFB-8444-4117EB3288C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\ModularGameplayActors.Build.cs">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors</Filter>
+    </None>
+    <Filter Include="Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private">
+      <UniqueIdentifier>{B8B90E7E-AD5A-3B0C-A684-BFAC92E94C5B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularAIController.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularCharacter.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularGameMode.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularGameplayActorsModule.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularGameState.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularPawn.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularPlayerController.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularPlayerState.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public">
+      <UniqueIdentifier>{2CE162FB-CFBE-3D0B-A1F3-D84F43D64075}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularAIController.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularCharacter.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularGameMode.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularGameState.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPawn.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPlayerController.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPlayerState.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UIExtension\Source">
+      <UniqueIdentifier>{7E1E7DD8-065F-3738-A245-78BD7BF6C2B3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UIExtension\Source\UIExtension.Build.cs">
+      <Filter>Plugins\UIExtension\Source</Filter>
+    </None>
+    <Filter Include="Plugins\UIExtension\Source\Private">
+      <UniqueIdentifier>{AFA517AA-1E6A-3390-87E3-9BF368D4A878}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UIExtension\Source\Private\LogUIExtension.cpp">
+      <Filter>Plugins\UIExtension\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UIExtension\Source\Private\LogUIExtension.h">
+      <Filter>Plugins\UIExtension\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UIExtension\Source\Private\UIExtensionModule.cpp">
+      <Filter>Plugins\UIExtension\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UIExtension\Source\Private\UIExtensionSystem.cpp">
+      <Filter>Plugins\UIExtension\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UIExtension\Source\Private\Widgets">
+      <UniqueIdentifier>{5288CCC3-2E87-325E-AA36-F31BFA440166}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UIExtension\Source\Private\Widgets\UIExtensionPointWidget.cpp">
+      <Filter>Plugins\UIExtension\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UIExtension\Source\Public">
+      <UniqueIdentifier>{83E81348-D365-398F-81B5-B4A94BD99AC8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UIExtension\Source\Public\UIExtensionSystem.h">
+      <Filter>Plugins\UIExtension\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UIExtension\Source\Public\Widgets">
+      <UniqueIdentifier>{07F2094B-4AD1-3D22-B36B-705DA223814C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UIExtension\Source\Public\Widgets\UIExtensionPointWidget.h">
+      <Filter>Plugins\UIExtension\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Source\HeroesOfLost">
+      <UniqueIdentifier>{E547F353-BE3E-3E6B-9540-30C1B705FCA2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HeroesOfLost\HeroesAssetManager.cpp">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\HeroesAssetManager.h">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeroesOfLost\HeroesEnhancedInputComponent.cpp">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\HeroesEnhancedInputComponent.h">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeroesOfLost\HeroesGameplayTags.cpp">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\HeroesGameplayTags.h">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\HeroesOfLost\HeroesOfLost.Build.cs">
+      <Filter>Source\HeroesOfLost</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HeroesOfLost\HeroesOfLost.cpp">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\HeroesOfLost.h">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeroesOfLost\HeroesOfLostCharacter.cpp">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\HeroesOfLostCharacter.h">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeroesOfLost\HeroesOfLostGameMode.cpp">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\HeroesOfLostGameMode.h">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeroesOfLost\HoLSettingScreen.cpp">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\HoLSettingScreen.h">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeroesOfLost\InputConfig.cpp">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\InputConfig.h">
+      <Filter>Source\HeroesOfLost</Filter>
+    </ClInclude>
+    <Filter Include="Source\HeroesOfLost\Player">
+      <UniqueIdentifier>{5ECF8E8B-F6A4-3190-B599-152BFC8D6279}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HeroesOfLost\Player\HoLLocalPlayer.cpp">
+      <Filter>Source\HeroesOfLost\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\Player\HoLLocalPlayer.h">
+      <Filter>Source\HeroesOfLost\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\HeroesOfLost\Teams">
+      <UniqueIdentifier>{C1E77FE5-420D-3212-83F2-1A72047F1CD2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HeroesOfLost\Teams\HoLTeamAgentInterface.cpp">
+      <Filter>Source\HeroesOfLost\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\Teams\HoLTeamAgentInterface.h">
+      <Filter>Source\HeroesOfLost\Teams</Filter>
+    </ClInclude>
+    <Filter Include="Source\HeroesOfLost\UI">
+      <UniqueIdentifier>{F6E7321F-9313-399C-99B5-D93083D9009F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HeroesOfLost\UI\HoLSettingRegistry.cpp">
+      <Filter>Source\HeroesOfLost\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\UI\HoLSettingRegistry.h">
+      <Filter>Source\HeroesOfLost\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\HeroesOfLost\UI\Common">
+      <UniqueIdentifier>{0FD0076A-5094-3370-BC45-758185F4E019}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HeroesOfLost\UI\Common\HoLTabListWidgetBase.cpp">
+      <Filter>Source\HeroesOfLost\UI\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeroesOfLost\UI\Common\HoLTabListWidgetBase.h">
+      <Filter>Source\HeroesOfLost\UI\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HeroesOfLost\HoLLogChannels.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HeroesOfLost\HoLLogChannels.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

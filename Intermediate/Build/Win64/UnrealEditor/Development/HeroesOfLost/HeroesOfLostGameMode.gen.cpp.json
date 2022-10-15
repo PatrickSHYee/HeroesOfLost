@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\heroesoflostgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\heroesoflost\\intermediate\\build\\win64\\heroesoflosteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\development\\heroesoflost\\definitions.heroesoflost.h",
+            "f:\\heroesoflost\\source\\heroesoflost\\heroesoflostgamemode.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\heroesoflostgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\heroesassetmanager.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\heroesoflost\\intermediate\\build\\win64\\heroesoflosteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\development\\heroesoflost\\definitions.heroesoflost.h",
+            "f:\\heroesoflost\\source\\heroesoflost\\heroesassetmanager.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\assetmanager.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\assetmanagertypes.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\assetmanagertypes.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\streamablemanager.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\assetregistry\\public\\assetregistrymodule.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\assetregistrymodule.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\assetregistry\\iassetregistry.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformchunkinstall.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\contentencryptionconfig.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\assetmanager.generated.h",
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\heroesassetmanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

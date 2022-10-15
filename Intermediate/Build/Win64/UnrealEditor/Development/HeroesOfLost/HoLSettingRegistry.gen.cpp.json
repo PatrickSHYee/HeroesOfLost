@@ -1,0 +1,25 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\holsettingregistry.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\heroesoflost\\intermediate\\build\\win64\\heroesoflosteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\development\\heroesoflost\\definitions.heroesoflost.h",
+            "f:\\heroesoflost\\source\\heroesoflost\\ui\\holsettingregistry.h",
+            "f:\\heroesoflost\\plugins\\gamesettings\\source\\public\\gamesettingregistry.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\gameplaytagcontainer.generated.h",
+            "f:\\heroesoflost\\plugins\\gamesettings\\intermediate\\build\\win64\\unrealeditor\\inc\\gamesettings\\gamesettingregistry.generated.h",
+            "f:\\heroesoflost\\plugins\\gamesettings\\source\\public\\datasource\\gamesettingdatasourcedynamic.h",
+            "f:\\heroesoflost\\plugins\\gamesettings\\source\\public\\datasource\\gamesettingdatasource.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\propertypath\\public\\propertypathhelpers.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\propertypath\\public\\propertytypecompatibility.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\propertypath\\propertypathhelpers.generated.h",
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\holsettingregistry.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

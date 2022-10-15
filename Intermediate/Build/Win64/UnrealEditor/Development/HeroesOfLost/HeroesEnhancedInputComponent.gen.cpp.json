@@ -1,0 +1,32 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\heroesenhancedinputcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\heroesoflost\\intermediate\\build\\win64\\heroesoflosteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\development\\heroesoflost\\definitions.heroesoflost.h",
+            "f:\\heroesoflost\\source\\heroesoflost\\heroesenhancedinputcomponent.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputcomponent.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputactionvalue.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputmappingquery.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputmappingquery.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputmodifiers.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputmodifiers.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\source\\enhancedinput\\public\\inputtriggers.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputtriggers.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\inputaction.generated.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\plugins\\experimental\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\enhancedinputcomponent.generated.h",
+            "f:\\heroesoflost\\source\\heroesoflost\\inputconfig.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "f:\\epiclibrary\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\gameplaytagcontainer.generated.h",
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\inputconfig.generated.h",
+            "f:\\heroesoflost\\intermediate\\build\\win64\\unrealeditor\\inc\\heroesoflost\\heroesenhancedinputcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
