@@ -9,7 +9,7 @@
 
 #include "HoLTeamAgentInterface.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParam(FOnHoLTeamIndexChangedDelegate, UObject*, ObjectChangingTeam, int32, OldTeamID, int32, NewTeamId);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnHoLTeamIndexChangedDelegate, UObject*, ObjectChangingTeam, int32, OldTeamID, int32, NewTeamId);
 
 inline int32 GenericTeamIdToInteger(FGenericTeamId ID) {
 	return (ID == FGenericTeamId::NoTeam) ? INDEX_NONE : (int32)ID;
@@ -24,7 +24,7 @@ inline FGenericTeamId IntegerToGenericTeamId(int32 ID) {
  */
 UINTERFACE(meta=(CannotImplementInterfaceInBlueprint))
 class UHoLTeamAgentInterface : public UGenericTeamAgentInterface {
-	GENERATED_UINTERFACE_BODY();
+	GENERATED_UINTERFACE_BODY()
 };
 
 class HEROESOFLOST_API IHoLTeamAgentInterface : public IGenericTeamAgentInterface
